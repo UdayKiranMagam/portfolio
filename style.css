@@ -1,0 +1,118 @@
+html{
+    scroll-behavior : smooth;
+ }
+body{
+    width: 90%;
+    color: white;
+    margin: 0% 5%;
+    position: a;
+    background-color: black;
+    /* background-image:url(unsplash.jpg) ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 5px 5px 10px 2px grey ; */
+}
+.navbar{
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+    justify-content: space-between;
+}
+.navlogo{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.navlogo img{
+    background-color: white;
+    border-radius: 52%;
+}
+.navlogo p{
+    font-size: 40px;
+    color: #ff004f;
+}
+.navitems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+}
+.navitems a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.navitems2 a{
+    text-decoration: none;
+    font-size: 23px;
+    background-color: #ff004f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.navitems2 a:hover{
+    background-color: darkred;
+}
+.navitems a:hover{
+    transition: 100ms ease;
+    border-bottom:5px solid #ff004f;
+    box-shadow: 0px 2px 5px 0px purple ;
+}
+.pro-content{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.pro-left{
+    width: 50%;
+    height: 500px;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 50px;
+}
+.desc{
+    font-size: 50px;
+}
+span{
+    color: #ff004f;
+    font-weight: bolder;
+}
+.desc1{
+    font-size: 50px;
+}
+.desc2{
+    font-size: 30px;
+}
+.desc3{
+    font-size: 22px;
+    color: white;
+}
+.pro-right img{
+    border-radius: 10%;
+}
+.btns{
+    color: white;
+    padding: 10px 20px;
+    background-color:#ff004f ;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.btns:hover{
+    box-shadow: 0px 0px 10px 5px grey ; 
+    transition: 0.8s;
+}
+.btns1{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.btns1:hover{
+    box-shadow: 0px 0px 10px 5px grey ; 
+    transition: 0.8s;
+}
